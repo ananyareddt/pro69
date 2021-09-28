@@ -1,140 +1,24 @@
-<!DOCTYPE html>
 <html>
-
 <head>
-    <title>project 69</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    <link rel="stylesheet" href="style.css">
-
+<title>
+My Family book
+</title>
 </head>
-
 <body>
+<p id="heading">My Family book</p>
+<img id="image1"src="https://www.google.co.in/url?sa=i&url=https%3A%2F%2Fwww.amazon.in%2FFamily-Book-Todd-Parr%2Fdp%2F0316070408&psig=AOvVaw1ldpm9LZyUWdK4YCm5wKS7&ust=1632891794163000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCLicvI3yoPMCFQAAAAAdAAAAABAD">
+<button onclick="update()">Next</button>
 
-    <nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
 
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#">Delhi Public School</a>
-        </div>
 
-        <div class="collapse navbar-collapse" id="myNavbar">
-            <ul class="nav navbar-nav">
-                <li><a href="#Campus-life">Campus life</a></li>
-                <li><a href="#Achievements">Achievements</a></li>
-                <li><a href="#Alumni">Alumni</a></li>
-                <li><a href="#What's new">What's new</a></li>
-                <li><a href="#Contact us">Contact Us</a></li>
-            </ul>
-        </div>
 
-    </nav>
-    <div class="announcement">
-        <marquee id="marquee" onmouseover="this.stop();" onmouseout="this.start();">
-            ***Feel Free to ask the queries at dpsbhilai@gmail.com***
-        </marquee>
-    </div>
-    <img id="image1" src="download%20(1).jpg">
 
-    <div class="container">
 
-        <div class="page-header" id="Contact us">
-            <h2 class="text-capitalize">Contact us</h2>
-        </div>
-        <div id="map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15078.353856082635!2d72.8906491!3d19.1257017!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xacf72f56793d190a!2sWHITEHAT%20EDUCATION%20TECHNOLOGY%20PVT%20LTD!5e0!3m2!1sen!2sin!4v1573468987088!5m2!1sen!2sin"></iframe>
-        </div>
-        <div id="details">
-            <img src="unnamed.jpg" class="img-responsive img-circle col-lg-3 col-md-3 col-sm-3 col-xs-4">
-            <h3 class="text-capitalize"> principal name:</h3>
-            <h4>Mr.PRANSHANT VASHISHTA</h4>
-        </div>
-        <div class="contact">
-            <a href="dpsbhilai@gmail.com">
-                <h5> <i class="fa-fa-envelope"></i>&nbsp;&nbsp;dpsbhilai@gmail.com</h5>
-            </a>
-            <a href="#">
-                <h6><i class="fa-fa-instagram"></i> &nbsp;&nbsp;dpsbhilai@gmail.com</h6>
-            </a>
-            <a href="#">
-                <h7><i class="fa-fa-phone-number"></i> &nbsp;&nbsp;9424113584</h7>
-            </a>
-        </div>
-    </div>
-    <div class="page-header" id="Campus-life">
-        <h2 class="text-capitalize">your campus life</h2>
-    </div>
-    <center>
-        <div class="travel_mainDiv">
-            <img class="img-responsive" src="library.jpg">
 
-            <h4 class="text-capitalize"><kbd>library</kbd></h4>
 
-            <hr>
 
-            <h5 class="text-success text-left text-capitalize">It was built in 2008</h5>
 
-            <p class="text-muted text-left">Our library has many book.Mainly the books of thea Stilton and geronimo stilton.</p>
-        </div>
-    </center>
+</body>
 
-    <br><br>
 
-    <center>
-        <div class="travel_mainDiv">
-            <img class="img-responsive" src="danceroom.jpg">
-
-            <h4 class="text-capitalize"><kbd>dance room</kbd></h4>
-
-            <hr>
-
-            <h5 class="text-success text-left text-capitalize">It was built in 2012</h5>
-
-            <p class="text-muted text-left">There is a big mirror in the room. </p>
-        </div>
-    </center>
-
-    <br><br>
-
-    <center>
-        <div class="travel_mainDiv">
-            <img class="img-responsive" src="swi.jpg">
-
-            <h4 class="text-capitalize"><kbd> indoor swimming pool</kbd></h4>
-
-            <hr>
-
-            <h5 class="text-success text-left text-capitalize">]It was built in 2007</h5>
-
-            <p class="text-muted text-left">It is very big pool.</p>
-        </div>
-    </center>
-    <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="what's new">
-        <h2 class="text-capitalize ">what's new</h2>
-    </div>
-
-    <ul class="list-group">
-
-        <li class="list-group-item list-group-item-success col-lg-12 col-md-12 col-sm-12 col-xs-12 environment_li">
-            <h4 class="text-capitalize">our canteen</h4>
-            <img src="Canteen.jpg" class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12">
-            <p class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12">We have a big canteen .we have many chairs to sit . </p>
-        </li>
-
-        <li class="list-group-item list-group-item-warning col-lg-12 col-md-12 col-sm-12 col-xs-12 environment_li">
-            <h4 class="text-capitalize">Our playground</h4>
-            <img src="playground.jpg" class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12">
-            <p class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12" class="text-capitalize">We have very big play-ground and there is a badminton-courtis also has a basketball court.We also play in it .</p>
-        </li>
+</html>
